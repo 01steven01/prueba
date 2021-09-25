@@ -1,0 +1,53 @@
+body {
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header-principal {
+    background: #303952;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+.header-principal .logo {
+    height: 70px;
+    background: #cf6a87;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-principal .logo img {
+    height: 100%;
+}
+
+.header-principal nav {
+    width: 30%;
+    /*border: 2px solid#fff;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-principal nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-principal nav a:hover {
+    text-decoration: underline #f78fb3;
+}
+
+.btn-general {
+    background: #3B3B98;
+    color: #fff;
+    border: 2px solid #3B3B98;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}

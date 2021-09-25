@@ -1,0 +1,33 @@
+.sct-banner {
+    background-image: url(../banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 3%;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+}
+
+.sct-banner .info {
+    width: 23%;
+    color: #fff;
+}
+
+.sct-banner .info p:nth-child(1) {
+    font-size: 90px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sct-banner .info p:nth-child(2) {
+    font-size: 136px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    -webkit-text-stroke: 5px #3B3B98;
+    color: transparent;
+}
+
+.sct-banner .info p:nth-child(3) {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
